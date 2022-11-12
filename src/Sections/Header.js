@@ -1,3 +1,5 @@
+import Navbar from "../Components/Navbar";
+
 export default function Header() {
     return (
         <header className="header">
@@ -5,13 +7,7 @@ export default function Header() {
             <a href="/" className="logo"> <i className="fas fa-desktop"></i> PC STORE
             </a>
 
-            <nav className="navbar">
-                <a href="index.html">home</a>
-                <a href="products.html">products</a>
-                <a href="blog.html">blogs</a>
-                <a href="research.html">research</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+            <Navbar />
 
             <div className="icons">
                 <div className="fas fa-bars" id="menu-btn"></div>
