@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="box-container">
 
                 <div className="box">
-                    <h3> groco <i className="fas fa-shopping-basket"></i> </h3>
+                    <h3> LAPTOP GHAR <i className="fas fa-laptop"></i> </h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Aliquam, saepe.</p>
                     <div className="share">

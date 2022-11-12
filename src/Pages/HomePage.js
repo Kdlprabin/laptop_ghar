@@ -1,7 +1,11 @@
+import HeroSection from "../Sections/HeroSection";
+import InformationSection from "../Sections/InformationSection";
+
 export default function HomePage() {
     return (
-        <h1>
-        HomePage
-        </h1>
+        <>
+        <HeroSection />
+        <InformationSection />
+        </>
     );
 }
