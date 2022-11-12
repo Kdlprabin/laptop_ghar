@@ -16,7 +16,7 @@ if (route === "/Contact") {
   Page = <ContactPage />
 }
 //productPage
-else if (route === "/Product") {
+else if (route === "/Products") {
   Page = <ProductsPage />
 }
 //homePage
