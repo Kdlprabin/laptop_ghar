@@ -1,7 +1,7 @@
-import Header from "../Sections/Header";
-
-export default function HomePage(){
-    return(
-        <Header/>
+export default function HomePage() {
+    return (
+        <h1>
+        HomePage
+        </h1>
     );
 }

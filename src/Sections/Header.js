@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <header className="header">
 
-            <a href="/" className="logo"> <i className="fas fa-desktop"></i> PC STORE
+            <a href="/" className="logo"> <i className="fas fa-laptop"></i> LAPTOP GHAR
             </a>
 
             <Navbar />
@@ -25,7 +25,7 @@ export default function Header() {
             <div className="shopping-cart">
                 <div className="box">
                     <i className="fas fa-trash"></i>
-                    <img src="image/cart-img-1.png" alt="" />
+                    <img src="" alt="" />
                     <div className="content">
                         <h3>PC 1</h3>
                         <span className="price">$4.99/-</span>
@@ -34,7 +34,7 @@ export default function Header() {
                 </div>
                 <div className="box">
                     <i className="fas fa-trash"></i>
-                    <img src="image/cart-img-2.png" alt="" />
+                    <img src={""} alt="" />
                     <div className="content">
                         <h3>PC 2</h3>
                         <span className="price">$4.99/-</span>
@@ -43,7 +43,7 @@ export default function Header() {
                 </div>
                 <div className="box">
                     <i className="fas fa-trash"></i>
-                    <img src="image/cart-img-3.png" alt="" />
+                    <img src={""} alt="" />
                     <div className="content">
                         <h3>PC 3</h3>
                         <span className="price">$4.99/-</span>
@@ -51,15 +51,15 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="total"> total : $19.69/- </div>
-                <a href="#" className="btn">checkout</a>
+                <a href="/" className="btn">checkout</a>
             </div>
 
             <form action="" className="login-form">
                 <h3>login now</h3>
                 <input type="email" placeholder="your email" className="box" />
                 <input type="password" placeholder="your password" className="box" />
-                <p>forget your password <a href="#">click here</a></p>
-                <p>don't have an account <a href="#">create now</a></p>
+                <p>forget your password <a href="/">click here</a></p>
+                <p>don't have an account <a href="/">create now</a></p>
                 <input type="submit" value="login now" className="btn" />
             </form>
 
