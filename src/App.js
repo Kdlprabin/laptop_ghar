@@ -1,9 +1,10 @@
 import './App.css';
 import HomePage from './Pages/HomePage';
 import ProductsPage from './Pages/ProductsPage';
-import ContactPage from './Pages/ContactPage';
+// import ContactPage from './Pages/ContactPage';
 import Header from './Sections/Header';
 import Footer from './Sections/Footer';
+import LoginRegister from './Components/LoginRegister';
 
 //routing for the pages//
 let Page;
@@ -13,7 +14,7 @@ let route = window.location.pathname;
 
 //contactPage
 if (route === "/Contact") {
-  Page = <ContactPage />
+  Page = <LoginRegister />
 }
 //productPage
 else if (route === "/Products") {

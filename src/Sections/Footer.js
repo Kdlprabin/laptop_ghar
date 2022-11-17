@@ -8,8 +8,7 @@ export default function Footer() {
 
                 <div className="box">
                     <h3> LAPTOP GHAR <i className="fas fa-laptop"></i> </h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Aliquam, saepe.</p>
+                    <p>You demand We fulfill</p>
                     <div className="share">
                         <a href="/" className="fab fa-facebook-f"> </a>
                         <a href="/" className="fab fa-twitter"> </a>

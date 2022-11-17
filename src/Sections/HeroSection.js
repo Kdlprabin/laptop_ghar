@@ -5,9 +5,7 @@ export default function HeroSection() {
 
             <div className="content">
                 <h3>PC <span>You Can</span> Build</h3>
-                <p color="white" test-shadow="1px 1px white">Lorem ipsum
-                    dolor sit amet consectetur adipisicing elit. Aliquam libero
-                    nostrum veniam facere tempore nisi.</p>
+                <p color="white" test-shadow="1px 1px white">Customize your PC with just some clicks</p>
                 <a href="/" className="btn">shop now</a>
             </div>
 
