@@ -4,10 +4,10 @@ import ProductSection from "../Sections/ProductSection";
 
 export default function HomePage() {
   return (
-    <>
+    <div>
       <HeroSection />
       <InformationSection />
       <ProductSection />
-    </>
+    </div>
   );
 }

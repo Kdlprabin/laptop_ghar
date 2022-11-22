@@ -60,7 +60,7 @@ section {
   padding: 0.8rem 3rem;
   font-size: 1.7rem;
   border-radius: 0.5rem;
-  border: 0.2rem solid var(--black);
+  border: 0.1rem solid var(--black);
   color: var(--black);
   cursor: pointer;
   background: none;
@@ -240,7 +240,7 @@ section {
 .header .login-form {
   position: absolute;
   top: 110%;
-  right: -110%;
+  right: 10%;
   width: 35rem;
   box-shadow: var(--box-shadow);
   padding: 2rem;
@@ -285,22 +285,22 @@ section {
 .home {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   background: url(./image/banner-bg.webp) no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 17rem;
-  padding-bottom: 10rem;
-  text-shadow: 2px 2px white;
+  height: 100vh;
+  /* text-shadow: 2px 2px white; */
 }
 
 .home .content {
-  text-align: center;
+  text-align: left;
   width: 60rem;
 }
 
 .home .content h3 {
-  color: var(--black);
+  color: var(--orange);
   font-size: 3rem;
 }
 
@@ -309,7 +309,7 @@ section {
 }
 
 .home .content p {
-  color: var(--light-color);
+  color: white;
   font-size: 1.7rem;
   padding: 1rem 0;
   line-height: 1.8;
@@ -951,7 +951,7 @@ button.submit {
     margin: 32px auto;
     cursor: pointer;
     color: #fff;
-    background-image: linear-gradient(to right, #d24ae4, #15cae1, #d24ae4 );
+    background-image: linear-gradient(to right, var(--orange), var(--black),var(--orange) );
     background-size: 300% 100%;    
     transition: background-position 0.4s;
 }

@@ -6,7 +6,7 @@ export default function ContactPage() {
         action=""
         class="checkout-form"
         name="messageForm"
-        onsubmit="validateForm()"
+        onsubmit={""}
       >
         <div class="input-line">
           <label for="name">Full Name</label>
