@@ -71,6 +71,10 @@ section {
   color: #fff;
 }
 
+#shop-now{
+  border: 1px solid white;
+  color: white;
+}
 .header {
   position: fixed;
   top: 0;
