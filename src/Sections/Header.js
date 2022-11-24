@@ -1,6 +1,6 @@
 import Navbar from "../Components/Navbar";
 import { useState } from "react";
-
+//need to import images for cart section//
 export default function Header() {
   const [isLoginActive, setIsLoginActive] = useState(false);
   const [isSearchActive, setIsSearchActive] = useState(false);
