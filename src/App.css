@@ -134,7 +134,7 @@ section {
 .header .search-form {
   position: absolute;
   top: 110%;
-  right: -110%;
+  right: 2rem;
   width: 50rem;
   height: 5rem;
   background: #fff;
@@ -142,12 +142,8 @@ section {
   overflow: hidden;
   display: flex;
   align-items: center;
-  box-shadow: var(--box-shadow);
-}
-
-.header .search-form.active {
-  right: 2rem;
   transition: 0.4s linear;
+  box-shadow: var(--box-shadow);
 }
 
 .header .search-form input {
@@ -174,17 +170,13 @@ section {
 .header .shopping-cart {
   position: absolute;
   top: 110%;
-  right: -110%;
+  right: 2rem;
+  transition: 0.4s linear;
   padding: 1rem;
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
   width: 35rem;
   background: #fff;
-}
-
-.header .shopping-cart.active {
-  right: 2rem;
-  transition: 0.4s linear;
 }
 
 .header .shopping-cart .box {
