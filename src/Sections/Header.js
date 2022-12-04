@@ -34,6 +34,8 @@ export default function Header() {
               isSearchActive
                 ? setIsSearchActive(false)
                 : setIsSearchActive(true);
+              setIsCartActive(false);
+              setIsLoginActive(false);
             }}
           ></div>
           <div
@@ -41,6 +43,8 @@ export default function Header() {
             id="cart-btn"
             onClick={() => {
               isCartActive ? setIsCartActive(false) : setIsCartActive(true);
+              setIsLoginActive(false);
+              setIsSearchActive(false);
             }}
           ></div>
           <div
@@ -48,6 +52,8 @@ export default function Header() {
             id="login-btn"
             onClick={() => {
               isLoginActive ? setIsLoginActive(false) : setIsLoginActive(true);
+              setIsCartActive(false);
+              setIsSearchActive(false);
             }}
           ></div>
         </div>
