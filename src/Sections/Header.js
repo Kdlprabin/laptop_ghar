@@ -1,6 +1,5 @@
 import Navbar from "../Components/Navbar";
 import { useState } from "react";
-
 import PDimg2 from "../image/product-2.png";
 import PDimg3 from "../image/product-3.png";
 import PDimg4 from "../image/product-4.png";

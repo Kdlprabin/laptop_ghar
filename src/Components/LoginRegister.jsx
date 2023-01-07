@@ -1,4 +1,7 @@
 export default function LoginRegister() {
+  const handelClose = () => {
+    document.querySelector(".login-container").style.display = "none";
+  };
   return (
     <div className="login-container">
       <p className="title">Login</p>
@@ -35,7 +38,9 @@ export default function LoginRegister() {
           </button>
         </div>
       </div>
-
+      <div onClick={handelClose} href="/" className="btn">
+        Close
+      </div>
       <div className="additional-action">
         <p>Not an account? Sign in</p>
       </div>
