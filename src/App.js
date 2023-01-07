@@ -1,37 +1,22 @@
-import './App.css';
-import HomePage from './Pages/HomePage';
-import ProductsPage from './Pages/ProductsPage';
-import ContactPage from './Pages/ContactPage';
-// import LoginRegister from './Components/LoginRegister'
-import Header from './Sections/Header';
-import Footer from './Sections/Footer';
-
-//routing for the pages//
-let Page;
-
-//The location of the app
-let route = window.location.pathname;
-
-//contactPage
-if (route === "/Contact") {
-  Page = <ContactPage />
-}
-//productPage
-else if (route === "/Products") {
-  Page = <ProductsPage />
-}
-//homePage
-else {
-  Page = <HomePage />
-}
+import "./App.css";
+import {BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./Pages/HomePage";
+import ProductsPage from "./Pages/ProductsPage";
+import ContactPage from "./Pages/ContactPage";
+import Header from "./Sections/Header";
+import Footer from "./Sections/Footer";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      {Page}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/Products" element={<ProductsPage />} />
+        <Route path="/Contact" element={<ContactPage />} />
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 
