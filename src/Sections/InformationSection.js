@@ -1,7 +1,7 @@
 import FTimg1 from "../image/feature-img-1.png";
 import FTimg2 from "../image/feature-img-2.png";
 import FTimg3 from "../image/feature-img-3.png";
-import Card from "../Components/Cards/InfoCard.js";
+import Card from "../Components/Cards/InfoCard";
 
 export default function InformationSection() {
   return (
